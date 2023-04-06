@@ -1,13 +1,14 @@
 import logo from "../../../assets/logo.jpg";
+import hamburgerMenu from "../../../assets/hamburger-menu.svg";
 
 const Navigation = () => {
   return (
-    <div className="flex items-center justify-center h-28">
-      <div className="pr-7 border-r h-full">
-        <img className="w-[92px]" src={logo} alt="Logo" />
+    <div className="flex items-center justify-between px-6 h-20 xl:justify-center lg:h-32 xl:h-28">
+      <div className="flex items-center h-full lg:border-r lg:pr-7">
+        <img className="w-16 lg:w-[92px]" src={logo} alt="Logo" />
       </div>
-      <nav className="flex items-center h-full">
-        <ul className="flex items-center space-x-12 px-7 h-full text-sm uppercase font-semibold border-r">
+      <nav className="hidden justify-center items-center h-full pr-7 pt-10 pb-4 lg:flex lg:flex-col xl:flex-row xl:pt-0 xl:pb-0">
+        <ul className="flex items-center space-x-8 px-7 h-full text-sm uppercase font-semibold xl:space-x-12">
           <li className="transition hover:text-[#f97729]">
             <a href="/">Home</a>
           </li>
@@ -23,19 +24,20 @@ const Navigation = () => {
           <li className="transition hover:text-[#f97729]">
             <a href="/">Contact</a>
           </li>
-          <li>
-            <a
-              className="px-6 py-4 text-[#f97729] text-[13px] font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729]"
-              href="/"
-            >
-              Book Appointment
-            </a>
-          </li>
         </ul>
-        <div className="pl-7">
-          <input className="outline-none" type="text" placeholder="Search" />
-        </div>
+        <a
+          className="mt-6 px-6 py-3 text-[#f97729] text-[13px] uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729] xl:px-6 xl:py-4 xl:mt-0"
+          href="/"
+        >
+          Book Appointment
+        </a>
       </nav>
+      <div className="hidden items-center pl-7 border-l h-full lg:flex xl:pl-7">
+        <input className="outline-none" type="text" placeholder="Search" />
+      </div>
+      <button className="lg:hidden">
+        <img src={hamburgerMenu} alt="Hamburger Menu" />
+      </button>
     </div>
   );
 };
