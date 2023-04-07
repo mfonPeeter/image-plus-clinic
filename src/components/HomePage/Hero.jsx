@@ -4,7 +4,7 @@
 
 const HeroSection = () => {
   return (
-    <header className="flex justify-end items-end bg-hero-bg-1 bg-cover bg-no-repeat mb-10">
+    <header className="flex justify-end items-end bg-hero-bg-1 bg-cover bg-no-repeat mb-16">
       <div className="py-44 px-16 text-white">
         <div>
           <h2 className="mb-3 text-[55px] font-bold">
