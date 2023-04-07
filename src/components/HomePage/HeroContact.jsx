@@ -1,6 +1,6 @@
 const HeroContact = () => {
   return (
-    <div className="flex flex-col justify-center space-y-4 py-6 px-4 bg-[#f97729] text-white text-center text-[15px] md:flex-row md:space-y-0 md:space-x-8 lg:space-x-20">
+    <div className="flex flex-col justify-center space-y-4 py-6 px-4 mb-3 bg-[#f97729] text-white text-center text-[15px] md:flex-row md:space-y-0 md:space-x-8 lg:space-x-20">
       <div className="md:pr-4 md:border-r lg:pr-16">
         <p className="font-bold">12 William Street (Amaecom Global House)</p>
         <p>Just after Nepa line road by Aka road</p>

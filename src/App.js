@@ -1,12 +1,12 @@
 import Layout from "./components/Layout/Layout";
 import HeroContact from "./components/HomePage/HeroContact";
-import HeroSection from "./components/HomePage/HeroSection";
+import Hero from "./components/HomePage/Hero";
 
 const App = () => {
   return (
     <Layout>
       <HeroContact />
-      {/* <HeroSection /> */}
+      <Hero />
     </Layout>
   );
 };
