@@ -4,7 +4,7 @@
 
 const HeroSection = () => {
   return (
-    <header className="flex justify-center bg-hero-bg-1 bg-cover bg-center bg-no-repeat mb-16 md:justify-end">
+    <header className="flex justify-center bg-hero-bg-1 bg-cover bg-center bg-no-repeat mb-16 md:justify-end md:mb-20">
       <div className="py-56 px-16 text-white">
         <div>
           <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
