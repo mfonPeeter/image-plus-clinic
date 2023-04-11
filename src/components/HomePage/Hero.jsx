@@ -1,11 +1,11 @@
-// import heroImg1 from "../../assets/hero-img-1.jpeg";
-// import heroImg2 from "../../assets/hero-img-2.jpg";
-// import heroImg3 from "../../assets/hero-img-3.jpg";
+// import slider-1 from '../../assets/sliders/slider-1.jpg';
+// import slider-2 from '../../assets/sliders/slider-2.jpg';
+// import slider-3 from '../../assets/sliders/slider-3.jpg';
 
 const HeroSection = () => {
   return (
-    <header className="flex justify-center bg-hero-bg-1 bg-cover bg-no-repeat mb-16 md:justify-end">
-      <div className="py-44 px-16 text-white">
+    <header className="flex justify-center bg-hero-bg-1 bg-cover bg-center bg-no-repeat mb-16 md:justify-end">
+      <div className="py-56 px-16 text-white">
         <div>
           <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
             We Are ImagePlus Clinic
