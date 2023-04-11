@@ -5,7 +5,7 @@ const About = () => {
         <h2 className="mb-2 text-center text-4xl font-bold uppercase">
           About Us
         </h2>
-        <hr className="w-10 border border-[#f97729]" />
+        <div className="w-10 h-[3px] bg-[#f97729]" />
       </div>
       <div className="flex flex-col space-y-4">
         <p>
