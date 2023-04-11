@@ -1,7 +1,3 @@
-// import slider-1 from '../../assets/sliders/slider-1.jpg';
-// import slider-2 from '../../assets/sliders/slider-2.jpg';
-// import slider-3 from '../../assets/sliders/slider-3.jpg';
-
 const HeroSection = () => {
   return (
     <header className="flex justify-center bg-hero-bg-1 bg-cover bg-center bg-no-repeat mb-16 md:justify-end md:mb-20">
