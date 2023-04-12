@@ -33,6 +33,7 @@ const BookAppointment = () => {
             <input
               className="p-2 w-full text-white bg-transparent border outline-none text-sm rounded placeholder-white"
               type="date"
+              placeholder="Appointment Date & Time"
             />
           </div>
         </div>
