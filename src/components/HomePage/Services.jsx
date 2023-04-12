@@ -1,3 +1,5 @@
+import eyeDropImg from "../../assets/eye-drop.svg";
+
 const Services = () => {
   return (
     <section className="mb-16 pt-10 pb-8 text-white bg-[#2f2f2f] md:pb-14 md:px-20 lg:px-16 xl:px-28">
@@ -9,7 +11,14 @@ const Services = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-        <div className="group text-center py-6 px-4 border-b md:pr-4 md:border-r">
+        <div className="group text-center py-4 px-4 border-b md:pr-4 md:border-r">
+          <div className="flex justify-center items-center">
+            <img
+              className="mb-4 w-20 h-20 lg:mb-6"
+              src={eyeDropImg}
+              alt="Eye Drop"
+            />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             Low Vision Clinic
           </h2>
@@ -24,7 +33,11 @@ const Services = () => {
             Read more
           </a>
         </div>
-        <div className="group text-center py-6 px-4 w-full border-b md:border-r">
+
+        <div className="group text-center py-4 px-4 w-full border-b md:border-r">
+          <div className="flex justify-center items-center">
+            <img className="mb-4 w-20 h-20 " src={eyeDropImg} alt="Eye Drop" />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             Geriatric & Pedriatic Care
           </h2>
@@ -38,7 +51,15 @@ const Services = () => {
             Read more
           </a>
         </div>
-        <div className="group text-center py-6 px-4 border-b md:pl-4 lg:px-4 lg:border-r">
+
+        <div className="group text-center py-4 px-4 border-b md:pl-4 lg:px-4 lg:border-r">
+          <div className="flex justify-center items-center">
+            <img
+              className="mb-4 w-20 h-20 lg:mb-6"
+              src={eyeDropImg}
+              alt="Eye Drop"
+            />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             Vision Screening
           </h2>
@@ -53,7 +74,15 @@ const Services = () => {
             Read more
           </a>
         </div>
-        <div className="group text-center py-6 px-4 border-b md:pr-4 md:border-r lg:pr-0 lg:pl-4 lg:border-r-0">
+
+        <div className="group text-center py-4 px-4 border-b md:pr-4 md:border-r lg:pr-0 lg:pl-4 lg:border-r-0">
+          <div className="flex justify-center items-center">
+            <img
+              className="mb-4 w-20 h-20 lg:mb-6"
+              src={eyeDropImg}
+              alt="Eye Drop"
+            />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             Diagnostic Testing
           </h2>
@@ -68,7 +97,11 @@ const Services = () => {
             Read more
           </a>
         </div>
-        <div className="group text-center py-6 px-4 border-b md:border-r lg:px-0 lg:pr-4 lg:border-b-0">
+
+        <div className="group text-center py-4 px-4 border-b md:border-r lg:px-0 lg:pr-4 lg:border-b-0">
+          <div className="flex justify-center items-center">
+            <img className="mb-4 w-20 h-20" src={eyeDropImg} alt="Eye Drop" />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             Optical Services
           </h2>
@@ -83,7 +116,11 @@ const Services = () => {
             Read more
           </a>
         </div>
-        <div className="group text-center py-6 px-4 border-b md:pl-4 lg:px-4 lg:border-b-0 lg:border-r">
+
+        <div className="group text-center py-4 px-4 border-b md:pl-4 lg:px-4 lg:border-b-0 lg:border-r">
+          <div className="flex justify-center items-center">
+            <img className="mb-4 w-20 h-20" src={eyeDropImg} alt="Eye Drop" />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             Contact Lenses
           </h2>
@@ -98,7 +135,11 @@ const Services = () => {
             Read more
           </a>
         </div>
-        <div className="group text-center py-6 px-4 md:pr-4 md:border-r md:border-b-0 lg:px-4">
+
+        <div className="group text-center py-4 px-4 md:pr-4 md:border-r md:border-b-0 lg:px-4">
+          <div className="flex justify-center items-center">
+            <img className="mb-4 w-20 h-20" src={eyeDropImg} alt="Eye Drop" />
+          </div>
           <h2 className="mb-1 text-xl transition-colors group-hover:text-[#f97729] md:text-2xl">
             The Outdoor Clinic
           </h2>
