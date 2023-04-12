@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const BookAppointment = () => {
+  const [dateType, setDateType] = useState(false);
+
   return (
     <div className="w-full pt-6 pb-10 px-6 text-white bg-[#2f2f2f] rounded-none md:w-1/2 md:rounded">
       <div className="flex flex-col items-center mb-10">
@@ -32,8 +36,10 @@ const BookAppointment = () => {
             />
             <input
               className="p-2 w-full text-white bg-transparent border outline-none text-sm rounded placeholder-white"
-              type="date"
+              type={dateType ? "datetime-local" : "text"}
               placeholder="Appointment Date & Time"
+              onFocus={() => setDateType((prevVal) => !prevVal)}
+              onBlur={() => setDateType((prevVal) => !prevVal)}
             />
           </div>
         </div>
