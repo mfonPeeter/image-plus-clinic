@@ -1,6 +1,6 @@
 import starIcon from "../../../assets/star.svg";
-import larrIcon from "../../../assets/larr.svg";
-import rarrIcon from "../../../assets/rarr.svg";
+import larrIcon from "../../../assets/testimonials/larr.svg";
+import rarrIcon from "../../../assets/testimonials/rarr.svg";
 
 const Testimonials = () => {
   return (

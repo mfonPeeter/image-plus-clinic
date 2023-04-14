@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg-1": "url('/src/assets/sliders/slider-1.jpg')",
+        "heroBg-1g-1": "url('/src/assets/sliders/slider-one-lg.jpg')",
+        "heroBg-sm-1": "url('/src/assets/sliders/slider-one-sm.jpg')",
         "eye-clinic": "url('/src/assets/summary/eye-clinic.jpg')",
         services: "url('/src/assets/summary/services.jpg')",
         "visit-us": "url('/src/assets/summary/visit-us.jpg')",
