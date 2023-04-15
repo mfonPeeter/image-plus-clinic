@@ -11,7 +11,7 @@ const HeroContact = () => {
           <span className="font-bold">Phone:</span> +2349071259643
         </p>
         <p>
-          <span className="font-bold">Optometrist:</span> 07030729996
+          <span className="font-bold">Optometrist:</span> +2347030729996
         </p>
         <p>
           <span className="font-bold">Email:</span> imageplusng@gmail.com

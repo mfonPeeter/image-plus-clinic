@@ -4,6 +4,7 @@ import Hero from "./components/HomePage/Hero";
 import Summary from "./components/HomePage/Summary/Summary";
 import Services from "./components/HomePage/Services";
 import BookAppointmentTestimonials from "./components/HomePage/BookAppointmentTestimonials/BookAppointmentTestimonials";
+import Doctors from "./components/HomePage/Doctors";
 // import About from "./components/HomePage/About";
 
 // Fonts
@@ -17,6 +18,7 @@ const App = () => {
       <Summary />
       <Services />
       <BookAppointmentTestimonials />
+      <Doctors />
       {/* <About /> */}
     </Layout>
   );

@@ -26,7 +26,7 @@ const Navigation = () => {
           </li>
         </ul>
         <a
-          className="mt-6 px-5 py-3 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729] xl:mt-0"
+          className="inline-block mt-6 px-5 py-3 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729] xl:mt-0"
           href="/"
         >
           Book Appointment

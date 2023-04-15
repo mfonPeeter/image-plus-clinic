@@ -4,7 +4,10 @@ const BookAppointment = () => {
   const [dateType, setDateType] = useState(false);
 
   return (
-    <div className="w-full pt-6 pb-10 px-6 text-white bg-[#2f2f2f] rounded-none md:w-1/2 md:rounded">
+    <div
+      className="w-full pt-6 pb-10 px-6 text-white bg-[#2f2f2f] rounded-none md:w-1/2 md:rounded"
+      id="book-appointment"
+    >
       <div className="flex flex-col items-center mb-10">
         <h2 className="mb-3 text-center text-3xl font-bold uppercase md:text-4xl">
           Book Appointment
