@@ -9,6 +9,7 @@ module.exports = {
         "eye-clinic": "url('/src/assets/summary/eye-clinic.jpg')",
         services: "url('/src/assets/summary/services.jpg')",
         "visit-us": "url('/src/assets/summary/visit-us.jpg')",
+        // milestone: "url('/src/assets/milestone/milestone.JPG')",
       },
     },
   },
