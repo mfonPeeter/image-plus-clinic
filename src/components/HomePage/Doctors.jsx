@@ -29,7 +29,7 @@ const Doctors = () => {
       <div className="flex flex-col items-center justify-center space-y-10 md:flex-row md:space-x-8 md:space-y-0 lg:justify-around">
         <div className="shadow-2xl">
           <img
-            className="w-[370px] h-[280px] rounded-t"
+            className="w-[370px] h-[350px] rounded-t"
             src={firstDoctorImg}
             alt="Dr Ijeoma"
           />
@@ -59,7 +59,7 @@ const Doctors = () => {
 
         <div className="shadow-2xl">
           <img
-            className="w-[370px] h-[280px] rounded-t"
+            className="w-[370px] h-[350px] rounded-t"
             src={secondDoctorImg}
             alt="Dr Ijeoma"
           />
