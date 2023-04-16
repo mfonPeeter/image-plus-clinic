@@ -21,7 +21,7 @@ const Milestone = () => {
           <img className="w-14 h-14" src={userIcon} alt="Patient" />
           <span className="mb-2">over</span>
           <span className="text-4xl md:text-5xl lg:text-6xl">9700</span>
-          <span className="text-lg md:text-xl">years experience</span>
+          <span className="text-lg md:text-xl">patients</span>
         </div>
 
         <div className="flex flex-col items-center">
@@ -32,7 +32,7 @@ const Milestone = () => {
           />
           <span className="mb-2">over</span>
           <span className="text-4xl md:text-5xl lg:text-6xl">1500</span>
-          <span className="text-lg md:text-xl">years experience</span>
+          <span className="text-lg md:text-xl">positive reviews</span>
         </div>
       </div>
     </section>

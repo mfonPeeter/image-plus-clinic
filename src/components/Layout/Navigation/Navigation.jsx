@@ -16,7 +16,7 @@ const Navigation = () => {
             <a href="/">About Us</a>
           </li>
           <li className="transition hover:text-[#f97729]">
-            <a href="/">Shop</a>
+            <a href="/">Services</a>
           </li>
           <li className="transition hover:text-[#f97729]">
             <a href="/">News & Updates</a>
