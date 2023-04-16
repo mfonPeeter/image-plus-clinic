@@ -4,7 +4,7 @@ import phoneIcon from "../../assets/footer/phone.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col space-y-8 pt-8 pb-16 px-6 bg-[#efefef] sm:px-8 lg:px-16 xl:px-28 md:flex-row md:space-y-0 md:space-x-4 lg:justify-between lg:space-x-0">
+    <footer className="flex flex-col space-y-8 py-8 px-6 bg-[#efefef] sm:px-8 lg:px-16 xl:px-28 md:flex-row md:space-y-0 md:space-x-4 lg:justify-between lg:space-x-0">
       <div className="flex flex-col space-y-2 text-lg">
         <h3 className="text-2xl text-[#f97729] font-bold">Uyo, Akwa Ibom</h3>
         <div className="flex space-x-4">
