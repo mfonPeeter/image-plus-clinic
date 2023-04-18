@@ -30,7 +30,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 border-b md:pr-4 md:border-r">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:mb-6 lg:w-20 lg:h-20"
+              className="mb-4 w-12 h-12 lg:mb-6 lg:w-16 lg:h-16"
               src={eyeIcon}
               alt="Eye Drop"
             />
@@ -53,7 +53,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 w-full border-b md:border-r">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:w-20 lg:h-20 "
+              className="mb-4 w-12 h-12 lg:w-16 lg:h-16 "
               src={clipboardIcon}
               alt="Eye Drop"
             />
@@ -75,7 +75,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 border-b md:pl-4 lg:px-4 lg:border-r">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:mb-6 lg:w-20 lg:h-20"
+              className="mb-4 w-12 h-12 lg:mb-6 lg:w-16 lg:h-16"
               src={documentMagnifyingGlassIcon}
               alt="Eye Drop"
             />
@@ -98,7 +98,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 border-b md:pr-4 md:border-r lg:pr-0 lg:pl-4 lg:border-r-0">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:mb-6 lg:w-20 lg:h-20"
+              className="mb-4 w-12 h-12 lg:mb-6 lg:w-16 lg:h-16"
               src={microphoneIcon}
               alt="Eye Drop"
             />
@@ -121,7 +121,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 border-b md:border-r lg:px-0 lg:pr-4 lg:border-b-0">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:w-20 lg:h-20"
+              className="mb-4 w-12 h-12 lg:w-16 lg:h-16"
               src={lifeBuoyIcon}
               alt="Eye Drop"
             />
@@ -144,7 +144,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 border-b md:pl-4 lg:px-4 lg:border-b-0 lg:border-r">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:w-20 lg:h-20"
+              className="mb-4 w-12 h-12 lg:w-16 lg:h-16"
               src={eyeIcon}
               alt="Eye Drop"
             />
@@ -167,7 +167,7 @@ const Services = () => {
         <div className="group text-center py-4 px-4 md:pr-4 md:border-r md:border-b-0 lg:px-4">
           <div className="flex justify-center items-center">
             <img
-              className="mb-4 w-16 h-16 lg:w-20 lg:h-20"
+              className="mb-4 w-12 h-12 lg:w-16 lg:h-16"
               src={buildingOfficeIcon}
               alt="Eye Drop"
             />
