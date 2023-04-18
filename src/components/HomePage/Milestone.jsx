@@ -4,7 +4,7 @@ import checkCircleIcon from "../../assets/milestone/check-circle.svg";
 
 const Milestone = () => {
   return (
-    <section className="py-10 text-white bg-[#f97729]">
+    <section className="py-10 text-white bg-milestone bg-no-repeat bg-cover bg-center">
       <div className="flex flex-col space-y-10 sm:flex-row sm:justify-around sm:space-y-0">
         <div className="flex flex-col items-center">
           <img
