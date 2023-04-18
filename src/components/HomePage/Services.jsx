@@ -9,7 +9,7 @@ const Services = () => {
         </h2>
         <div className="w-10 h-[3px] bg-[#f97729]" />
       </div>
-      <div className="mb-12 px-6 sm:px-12 md:px-0">
+      <div className="mb-6 px-6 sm:px-12 md:px-0 md:mb-12">
         <p className="text-xl">
           ImagePlus Eye Clinic provides comprehensive eye examinations through
           our fully computerized, with State-of-the-art equipment giving
