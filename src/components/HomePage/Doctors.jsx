@@ -3,7 +3,7 @@ import secondDoctorImg from "../../assets/doctors/doctor-2.jpg";
 
 const Doctors = () => {
   return (
-    <section className="py-16 px-6 bg-[#2f2f2f] text-white sm:px-12 md:px-20 lg:px-16 xl:px-28">
+    <section className="pt-10 pb-16 px-6 bg-[#2f2f2f] text-white sm:px-12 md:py-16 md:px-20 lg:px-16 xl:px-28">
       <div className="flex flex-col items-center mb-10">
         <h2 className="mb-3 text-center text-3xl font-bold uppercase md:text-4xl">
           Meet Our Doctors

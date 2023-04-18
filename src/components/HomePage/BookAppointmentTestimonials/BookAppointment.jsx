@@ -5,7 +5,7 @@ const BookAppointment = () => {
 
   return (
     <div
-      className="w-full pt-6 pb-10 px-6 text-white bg-[#2f2f2f] rounded-none md:w-1/2 md:rounded"
+      className="w-full pt-10 pb-10 px-6 text-white bg-[#2f2f2f] rounded-none md:w-1/2 md:pt-6 md:rounded"
       id="book-appointment"
     >
       <div className="flex flex-col items-center mb-10">
