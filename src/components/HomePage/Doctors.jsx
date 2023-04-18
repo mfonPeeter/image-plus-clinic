@@ -12,10 +12,9 @@ const Doctors = () => {
       </div>
       <div className="mb-12">
         <p className="text-xl">
-          Our eye doctors are well experienced and highly qualified. The
-          positive reviews speak as to the level of professionalism we render to
-          our patients. So if you are looking for a reliable eye clinic in
-          Lagos, we are always at your service. Book an appointment by{" "}
+          Here at ImagePlus Eye Clinic, we have the most reputed doctors and
+          well trained specialists who provide comprehensive care to address all
+          your concerns. Book an appointment by{" "}
           <a className="underline" href="tel:+2349071259643">
             phone
           </a>{" "}

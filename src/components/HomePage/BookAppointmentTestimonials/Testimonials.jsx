@@ -42,11 +42,11 @@ const Testimonials = () => {
         </div>
         <div className="relative px-10 text-center md:px-4">
           <p className="mb-8 text-lg">
-            For your eye and dental care, Haven Opticals and Dental Clinic is
-            definitely the place to go. Their services are world class and in
-            tune with modern day best practices.
+            I was completely satisfied with my experience at ImagePlus. The
+            Staff and Doctors were not just kind but also professional. Thank
+            you so much for saving my vision.
           </p>
-          <p>Franca Oghoator</p>
+          <p>Kingsley Anyway</p>
           <button className="absolute top-1/2 left-0 -translate-y-1/2 md:-left-4">
             <img className="w-6 h-6" src={larrIcon} alt="Left Arrow" />
           </button>
