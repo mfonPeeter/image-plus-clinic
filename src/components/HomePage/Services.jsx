@@ -1,4 +1,9 @@
-import eyeDropIcon from "../../assets/eye-drop.svg";
+import eyeIcon from "../../assets/services/eye.svg";
+import clipboardIcon from "../../assets/services/clipboard-document.svg";
+import documentMagnifyingGlassIcon from "../../assets/services/document-magnifying-glass.svg";
+import microphoneIcon from "../../assets/services/microphone.svg";
+import lifeBuoyIcon from "../../assets/services/lifebuoy.svg";
+import buildingOfficeIcon from "../../assets/services/building-office.svg";
 
 const Services = () => {
   return (
@@ -26,7 +31,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:mb-6 lg:w-20 lg:h-20"
-              src={eyeDropIcon}
+              src={eyeIcon}
               alt="Eye Drop"
             />
           </div>
@@ -49,7 +54,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:w-20 lg:h-20 "
-              src={eyeDropIcon}
+              src={clipboardIcon}
               alt="Eye Drop"
             />
           </div>
@@ -71,7 +76,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:mb-6 lg:w-20 lg:h-20"
-              src={eyeDropIcon}
+              src={documentMagnifyingGlassIcon}
               alt="Eye Drop"
             />
           </div>
@@ -94,7 +99,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:mb-6 lg:w-20 lg:h-20"
-              src={eyeDropIcon}
+              src={microphoneIcon}
               alt="Eye Drop"
             />
           </div>
@@ -117,7 +122,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:w-20 lg:h-20"
-              src={eyeDropIcon}
+              src={lifeBuoyIcon}
               alt="Eye Drop"
             />
           </div>
@@ -140,7 +145,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:w-20 lg:h-20"
-              src={eyeDropIcon}
+              src={eyeIcon}
               alt="Eye Drop"
             />
           </div>
@@ -163,7 +168,7 @@ const Services = () => {
           <div className="flex justify-center items-center">
             <img
               className="mb-4 w-16 h-16 lg:w-20 lg:h-20"
-              src={eyeDropIcon}
+              src={buildingOfficeIcon}
               alt="Eye Drop"
             />
           </div>

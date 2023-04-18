@@ -11,10 +11,18 @@ const Partners = () => {
         </h2>
         <div className="w-10 h-[3px] bg-[#f97729]" />
       </div>
-      <div className="flex justify-center space-x-1 sm:space-x-10">
-        <img className="w-[126px]" src={ubaLogo} alt="UBA Logo" />
-        <img className="w-[126px]" src={keystoneLogo} alt="Keystone Logo" />
-        <img className="w-[126px]" src={moniepointLogo} alt="Moniepoint Logo" />
+      <div className="flex justify-center space-x-1 sm:space-x-16 md:space-x-24">
+        <img className="w-[126px] md:w-auto" src={ubaLogo} alt="UBA Logo" />
+        <img
+          className="w-[126px] md:w-auto"
+          src={keystoneLogo}
+          alt="Keystone Logo"
+        />
+        <img
+          className="w-[126px] md:w-auto"
+          src={moniepointLogo}
+          alt="Moniepoint Logo"
+        />
       </div>
     </section>
   );
