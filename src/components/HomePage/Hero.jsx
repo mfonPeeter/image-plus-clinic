@@ -7,6 +7,7 @@ const HeroSection = () => {
       showThumbs={false}
       showStatus={false}
       preventMovementUntilSwipeScrollTolerance={true}
+      infiniteLoop={true}
     >
       <div className="relative flex justify-center bg-heroBg-sm-1 bg-cover bg-no-repeat bg-top h-full md:justify-end md:bg-heroBg-1g-1">
         <div className="py-32 px-16 text-white md:py-56">
