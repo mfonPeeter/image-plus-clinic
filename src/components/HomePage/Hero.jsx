@@ -3,8 +3,8 @@ import { Carousel } from "react-responsive-carousel";
 
 const HeroSection = () => {
   return (
-    <Carousel>
-      <div className="relative flex justify-center bg-heroBg-sm-1 bg-cover bg-no-repeat bg-top h-full mb-16 md:justify-end md:mb-20 md:bg-heroBg-1g-1">
+    <Carousel showThumbs={false}>
+      <div className="relative flex justify-center bg-heroBg-sm-1 bg-cover bg-no-repeat bg-top h-full md:justify-end md:bg-heroBg-1g-1">
         <div className="py-32 px-16 text-white md:py-56">
           <div className="text-center">
             <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
@@ -32,7 +32,7 @@ const HeroSection = () => {
               We Are Imageplus Clinic
             </h2>
             <p className="mb-10 text-xl italic sm:text-2xl md:text-3xl">
-              Your Primary Eye Care Practitioners
+              We Love What We Do
             </p>
           </div>
           <div className="flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">
@@ -53,7 +53,7 @@ const HeroSection = () => {
               We Are Imageplus Clinic
             </h2>
             <p className="mb-10 text-xl italic sm:text-2xl md:text-3xl">
-              Your Primary Eye Care Practitioners
+              Give Them Good Vision
             </p>
           </div>
           <div className="flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">

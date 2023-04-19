@@ -1,7 +1,6 @@
 import searchIcon from "../../../assets/magnifying-glass.svg";
 
 const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
-  console.log(showMobileNav);
   return (
     <>
       <div
