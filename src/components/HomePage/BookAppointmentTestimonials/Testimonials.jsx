@@ -42,7 +42,7 @@ const Testimonials = () => {
         </div>
         <div className="relative px-10 text-center md:px-4">
           <p className="mb-8 text-lg">
-            I was completely satisfied with my experience at ImagePlus. The
+            I was completely satisfied with my experience at Imageplus. The
             Staff and Doctors were not just kind but also professional. Thank
             you so much for saving my vision.
           </p>

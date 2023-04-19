@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="flex flex-col space-y-4">
         <p>
-          ImagePlus Eye Clinic was established in 2021 and incorporated under
+          Imageplus Eye Clinic was established in 2021 and incorporated under
           the laws of Federal Republic of Nigeria RC nos 3469707 and specializes
           on primary eye care optometry. We offer comprehensive eye assessment
           including vision correction, lens prescription and co management of
@@ -22,7 +22,7 @@ const About = () => {
           to our patients in an affordable manner without compromising standard.
         </p>
         <p>
-          At ImagePlus Eye Clinic we see you, your unique eyes and your eye
+          At Imageplus Eye Clinic we see you, your unique eyes and your eye
           needs. And we personalize every treatment to offer you the best of
           vision care available today.
         </p>

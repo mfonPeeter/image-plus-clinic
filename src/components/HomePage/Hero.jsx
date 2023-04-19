@@ -7,10 +7,10 @@ const HeroSection = () => {
       <div className="py-32 px-16 text-white md:py-56">
         <div className="text-center">
           <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
-            We Are ImagePlus Clinic
+            We Are Imageplus Clinic
           </h2>
           <p className="mb-10 text-xl italic sm:text-2xl md:text-3xl">
-            Your Total Eye Care Practitioners
+            Your Primary Eye Care Practitioners
           </p>
         </div>
         <div className="flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">

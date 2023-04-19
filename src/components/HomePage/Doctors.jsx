@@ -12,7 +12,7 @@ const Doctors = () => {
       </div>
       <div className="mb-12">
         <p className="text-xl">
-          Here at ImagePlus Eye Clinic, we have the most reputed doctors and
+          Here at Imageplus Eye Clinic, we have the most reputed doctors and
           well trained specialists who provide comprehensive care to address all
           your concerns. Book an appointment by{" "}
           <a className="underline" href="tel:+2349071259643">

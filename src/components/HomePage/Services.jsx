@@ -16,7 +16,7 @@ const Services = () => {
       </div>
       <div className="mb-6 px-6 sm:px-12 md:px-0 md:mb-12">
         <p className="text-xl">
-          ImagePlus Eye Clinic provides comprehensive eye examinations through
+          Imageplus Eye Clinic provides comprehensive eye examinations through
           our fully computerized, with State-of-the-art equipment giving
           accurate results for effective diagnosis by our experienced experts.
           We make it easy to leverage professional eye care services at the

@@ -11,7 +11,7 @@ const Summary = () => {
       </div>
       <div className="mb-12">
         <p className="text-xl">
-          ImagePlus is an eye clinic in Akwa Ibom and Port Harcourt. We
+          Imageplus is an eye clinic in Akwa Ibom and Port Harcourt. We
           specialize in caring for all your vision needs. We handle everything
           from eye exams, preventative care, treatment, hard-to-fit contact
           lenses, computer vision problems, specialty lenses to low vision and

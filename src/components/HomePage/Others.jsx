@@ -10,7 +10,7 @@ const Others = () => {
               Vision Correction Plans
             </h2>
             <p className="text-xl">
-              At ImagePlus Eye clinic, we are keen towards providing
+              At Imageplus Eye clinic, we are keen towards providing
               comprehensive eye screening/testing & lens prescriptions aimed at
               correcting our patients' visual ability and sustainability.
             </p>
@@ -49,7 +49,7 @@ const Others = () => {
             </p>
             <p className="text-xl">
               Our experienced and optical staff are always happy to see you at
-              ImagePlus Eye Clinic and ready to offer assistance for you to pick
+              Imageplus Eye Clinic and ready to offer assistance for you to pick
               out our elegant and stylish frames to suit every style and budget.
             </p>
           </div>
