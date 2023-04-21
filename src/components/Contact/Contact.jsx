@@ -74,13 +74,13 @@ const Contact = () => {
             <div className="flex flex-col space-y-5 mb-5 md:space-y-8 md:mb-8">
               <div className="flex flex-col space-y-5 md:flex-row md:space-x-8 md:space-y-0">
                 <input
-                  className="p-2 w-full bg-transparent border outline-none text-sm rounded"
+                  className="p-3 w-full bg-transparent border outline-none text-sm rounded"
                   type="text"
                   placeholder="Your Name *"
                   required
                 />
                 <input
-                  className="p-2 w-full bg-transparent border outline-none text-sm rounded"
+                  className="p-3 w-full bg-transparent border outline-none text-sm rounded"
                   type="text"
                   placeholder="Phone number *"
                   required
@@ -88,12 +88,12 @@ const Contact = () => {
               </div>
               <div className="flex flex-col space-y-5 md:flex-row md:space-x-8 md:space-y-0">
                 <input
-                  className="p-2 w-full bg-transparent border outline-none text-sm rounded"
+                  className="p-3 w-full bg-transparent border outline-none text-sm rounded"
                   type="text"
                   placeholder="Your Email"
                 />
                 <input
-                  className="p-2 w-full bg-transparent border outline-none text-sm rounded"
+                  className="p-3 w-full bg-transparent border outline-none text-sm rounded"
                   type={dateType ? "datetime-local" : "text"}
                   placeholder="Appointment Date & Time"
                   onFocus={() => setDateType((prevVal) => !prevVal)}
@@ -113,7 +113,7 @@ const Contact = () => {
             </div>
             <div>
               <textarea
-                className="w-full h-52 p-2 mb-5 text-sm text-white bg-transparent border rounded md:mb-4"
+                className="w-full h-52 p-3 mb-5 text-sm text-white bg-transparent border rounded md:mb-4"
                 placeholder="Notes (if possible, tell us what your appointment is for)"
               />
             </div>
