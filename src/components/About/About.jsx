@@ -56,18 +56,22 @@ const About = () => {
           Book an Appointment with our Eye Clinic in Uyo
         </p>
         <div className="flex space-x-6">
-          <Link
-            to="tel:"
-            className="inline-block px-5 py-3 text-lg uppercase font-bold border-2 border-white rounded-full transition-all hover:text-white hover:bg-[#045544] md:px-8 md:py-3"
-          >
-            Call Now
-          </Link>
-          <Link
-            to="contact-us"
-            className="inline-block px-5 py-3 text-lg uppercase font-bold border-2 border-white rounded-full transition-all hover:text-white hover:bg-[#045544] md:px-8 md:py-3"
-          >
-            Book Online
-          </Link>
+          <div className="flex items-center">
+            <Link
+              to="tel:"
+              className="inline-block px-4 py-2 uppercase font-bold border-2 border-white rounded-full transition-all hover:text-white hover:bg-[#045544] md:px-8 md:py-3 md:text-lg"
+            >
+              Call Now
+            </Link>
+          </div>
+          <div className="flex items-center">
+            <Link
+              to="contact-us"
+              className="inline-block px-4 py-2 uppercase font-bold border-2 border-white rounded-full transition-all hover:text-white hover:bg-[#045544] md:px-8 md:py-3 md:text-lg"
+            >
+              Book Online
+            </Link>
+          </div>
         </div>
       </div>
     </section>
