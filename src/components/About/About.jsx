@@ -51,8 +51,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center space-y-4 py-6 bg-[#f97729] text-white lg:flex-row lg:justify-around lg:items-center lg:space-y-0">
-        <p className="text-xl md:text-2xl">
+      <div className="flex flex-col items-center space-y-4 px-4 py-6 bg-[#f97729] text-white lg:flex-row lg:justify-around lg:items-center lg:space-y-0 lg:px-0">
+        <p className="text-xl text-center md:text-2xl">
           Book an Appointment with our Eye Clinic in Uyo
         </p>
         <div className="flex space-x-6">
