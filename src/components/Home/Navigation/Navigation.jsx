@@ -21,7 +21,11 @@ const Navigation = () => {
           !showMobileNav && "shadow-xl"
         }`}
       >
-        <Link to="/" className="flex items-center h-full lg:border-r lg:pr-7">
+        <Link
+          to="/"
+          className="flex items-center h-full lg:border-r lg:pr-7"
+          onClick={() => setShowMobileNav(false)}
+        >
           <img className="w-16 lg:w-[92px]" src={logo} alt="Logo" />
         </Link>
         <nav className="hidden justify-center items-center h-full pr-7 pt-10 pb-4 lg:flex lg:flex-col xl:flex-row xl:pt-0 xl:pb-0">

@@ -31,19 +31,34 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
           </button>
         </div>
         <ul className="mb-8">
-          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+          <li
+            className="py-2 px-6 border-b transition hover:text-[#f97729]"
+            onClick={showMobileNavHandler}
+          >
             <Link to="/">Home</Link>
           </li>
-          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+          <li
+            className="py-2 px-6 border-b transition hover:text-[#f97729]"
+            onClick={showMobileNavHandler}
+          >
             <Link to="/about-us">About us</Link>
           </li>
-          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+          <li
+            className="py-2 px-6 border-b transition hover:text-[#f97729]"
+            onClick={showMobileNavHandler}
+          >
             <a href="#services">Services</a>
           </li>
-          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+          <li
+            className="py-2 px-6 border-b transition hover:text-[#f97729]"
+            onClick={showMobileNavHandler}
+          >
             <Link to="/news-updates">News & Updates</Link>
           </li>
-          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+          <li
+            className="py-2 px-6 border-b transition hover:text-[#f97729]"
+            onClick={showMobileNavHandler}
+          >
             <Link to="/">Contact</Link>
           </li>
         </ul>
@@ -52,6 +67,7 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
           <a
             className="inline-block px-4 py-2 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729]"
             href="#book-appointment"
+            onClick={showMobileNavHandler}
           >
             Book Appointment
           </a>
