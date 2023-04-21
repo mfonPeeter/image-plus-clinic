@@ -1,6 +1,7 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
 import starIcon from "../../../assets/star.svg";
-import larrIcon from "../../../assets/testimonials/larr.svg";
-import rarrIcon from "../../../assets/testimonials/rarr.svg";
 
 const Testimonials = () => {
   return (
@@ -12,7 +13,7 @@ const Testimonials = () => {
         <div className="w-10 h-[3px] bg-[#f97729]" />
       </div>
 
-      <div className="mb-24 px-7 md:px-0">
+      <div className="mb-16 px-7 md:px-0 md:mb-24">
         <div className="flex justify-center space-x-1 mb-2">
           <img
             className="w-4 h-4 md:w-6 md:h-6"
@@ -40,20 +41,40 @@ const Testimonials = () => {
             alt="Five Stars"
           />
         </div>
-        <div className="relative px-10 text-center md:px-4">
-          <p className="mb-8 text-lg">
-            I was completely satisfied with my experience at Imageplus. The
-            Staff and Doctors were not just kind but also professional. Thank
-            you so much for saving my vision.
-          </p>
-          <p>Kingsley Anyway</p>
-          <button className="absolute top-1/2 left-0 -translate-y-1/2 md:-left-4">
-            <img className="w-6 h-6" src={larrIcon} alt="Left Arrow" />
-          </button>
-          <button className="absolute top-1/2 right-0 -translate-y-1/2 md:-right-4">
-            <img className="w-6 h-6" src={rarrIcon} alt="Right Arrow" />
-          </button>
-        </div>
+        <Carousel
+          showThumbs={false}
+          showStatus={false}
+          preventMovementUntilSwipeScrollTolerance={true}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={5000}
+        >
+          <div className="relative mx-3 px-4 pb-10 text-center">
+            <p className="mb-8 text-lg">
+              I was completely satisfied with my experience at Imageplus. The
+              Staff and Doctors were not just kind but also professional. Thank
+              you so much for saving my vision, Imageplus
+            </p>
+            <p>Mathew Peter Okon</p>
+          </div>
+
+          <div className="relative mx-3 px-4 pb-10 text-center">
+            <p className="mb-8 text-lg">
+              I love the check ups in terms of making sure everything is fine by
+              asking questions for better understanding of the eyes issue.
+            </p>
+            <p>Henry Kalu</p>
+          </div>
+
+          <div className="relative mx-3 px-4 pb-10 text-center">
+            <p className="mb-8 text-lg">
+              Simply the best and affordable eye clinic I've ever been to with
+              competent Doctors and state-of-the-art equipment. The quality of
+              glasses and customer service is excellent.
+            </p>
+            <p>Ikenna O. Elliot</p>
+          </div>
+        </Carousel>
       </div>
 
       <a

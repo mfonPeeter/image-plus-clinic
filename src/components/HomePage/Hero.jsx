@@ -1,4 +1,4 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 const HeroSection = () => {
@@ -11,7 +11,7 @@ const HeroSection = () => {
       autoPlay={true}
       interval={5000}
     >
-      <div className="relative flex justify-center bg-heroBg-sm-1 bg-cover bg-no-repeat bg-top h-full md:justify-end md:bg-heroBg-1g-1">
+      <div className="flex justify-center bg-heroBg-sm-1 bg-cover bg-no-repeat bg-top h-full md:justify-end md:bg-heroBg-1g-1">
         <div className="py-32 px-16 text-white md:py-56">
           <div className="text-center">
             <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
@@ -32,7 +32,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="relative flex justify-center bg-heroBg-sm-2 bg-cover bg-no-repeat bg-top h-full mb-16 md:justify-end md:mb-20 md:bg-heroBg-1g-2">
+      <div className="flex justify-center bg-heroBg-sm-2 bg-cover bg-no-repeat bg-top h-full mb-16 md:justify-end md:mb-20 md:bg-heroBg-1g-2">
         <div className="py-32 px-16 text-white md:py-56">
           <div className="text-center">
             <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
@@ -53,7 +53,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="relative flex justify-center bg-heroBg-sm-3 bg-cover bg-no-repeat bg-top h-full mb-16 md:justify-end md:mb-20 md:bg-heroBg-1g-3">
+      <div className="flex justify-center bg-heroBg-sm-3 bg-cover bg-no-repeat bg-top h-full mb-16 md:justify-end md:mb-20 md:bg-heroBg-1g-3">
         <div className="py-32 px-16 text-white md:py-56">
           <div className="text-center">
             <h2 className="mb-3 font-bold text-3xl sm:text-4xl md:text-[55px]">
