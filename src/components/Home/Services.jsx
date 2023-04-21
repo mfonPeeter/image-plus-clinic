@@ -47,7 +47,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>
@@ -69,7 +69,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>
@@ -92,7 +92,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>
@@ -115,7 +115,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>
@@ -138,7 +138,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>
@@ -161,7 +161,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>
@@ -184,7 +184,7 @@ const Services = () => {
           </p>
           <a
             href="/"
-            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#4b5255]"
+            className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
           </a>

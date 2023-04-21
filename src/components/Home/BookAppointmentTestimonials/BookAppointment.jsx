@@ -60,7 +60,7 @@ const BookAppointment = () => {
           />
         </div>
         <div className="flex justify-center">
-          <button className="px-10 py-3 text-lg font-bold uppercase border border-white rounded-full transition-colors hover:bg-[#4b5255]">
+          <button className="px-10 py-3 text-lg font-bold uppercase border border-white rounded-full transition-colors hover:bg-[#045544]">
             Send
           </button>
         </div>

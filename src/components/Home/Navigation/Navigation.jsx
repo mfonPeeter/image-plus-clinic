@@ -30,7 +30,7 @@ const Navigation = () => {
               <Link to="/">Home</Link>
             </li>
             <li className="transition hover:text-[#f97729]">
-              <Link to="/about">About Us</Link>
+              <Link to="/about-us">About Us</Link>
             </li>
             <li className="transition hover:text-[#f97729]">
               <a href="#services">Services</a>

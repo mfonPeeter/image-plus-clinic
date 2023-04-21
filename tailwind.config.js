@@ -14,6 +14,7 @@ module.exports = {
         services: "url('/src/assets/summary/services.jpg')",
         "visit-us": "url('/src/assets/summary/visit-us.jpg')",
         milestone: "url('/src/assets/milestone/milestone.jpg')",
+        "pages-heroBg": "url('/src/assets/pages-heroBg.jpg')",
       },
     },
   },

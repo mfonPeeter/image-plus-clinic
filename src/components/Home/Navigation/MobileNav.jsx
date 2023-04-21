@@ -35,7 +35,7 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
             <Link to="/">Home</Link>
           </li>
           <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
-            <Link to="/about">About us</Link>
+            <Link to="/about-us">About us</Link>
           </li>
           <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
             <a href="#services">Services</a>
