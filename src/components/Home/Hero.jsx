@@ -22,12 +22,18 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">
-            <button className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10">
+            <a
+              href="#doctors"
+              className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10"
+            >
               Meet Our Doctors
-            </button>
-            <button className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10">
+            </a>
+            <a
+              href="#book-appointment"
+              className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10"
+            >
               Schedule Appointment
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -43,12 +49,18 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">
-            <button className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10">
+            <a
+              href="#doctors"
+              className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10"
+            >
               Meet Our Doctors
-            </button>
-            <button className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10">
+            </a>
+            <a
+              href="#book-appointment"
+              className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10"
+            >
               Schedule Appointment
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -64,12 +76,18 @@ const HeroSection = () => {
             </p>
           </div>
           <div className="flex flex-col space-y-3 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">
-            <button className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10">
+            <a
+              href="#doctors"
+              className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10"
+            >
               Meet Our Doctors
-            </button>
-            <button className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10">
+            </a>
+            <a
+              href="#book-appointment"
+              className="py-5 px-4 uppercase font-semibold bg-[rgba(0,0,0,0.36)] rounded transition-all hover:bg-black sm:px-10"
+            >
               Schedule Appointment
-            </button>
+            </a>
           </div>
         </div>
       </div>

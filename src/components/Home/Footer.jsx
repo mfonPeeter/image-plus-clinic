@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import locationIcon from "../../assets/footer/map-pin.svg";
 import timeIcon from "../../assets/footer/clock.svg";
 import phoneIcon from "../../assets/footer/phone.svg";
@@ -17,12 +19,12 @@ const Footer = () => {
         <div className="flex space-x-4">
           <img className="w-7 h-7" src={timeIcon} alt="Time" />
           <p className="max-w-[250px]">
-            Monday - Friday 9AM - 6PM Saturday 10AM - 3PM
+            Monday - Friday 8AM - 5PM Saturday 8AM - 5PM
           </p>
         </div>
         <div className="flex space-x-4">
           <img className="w-6 h-6" src={phoneIcon} alt="Phone" />
-          <p>0907 125 9643</p>
+          <Link to="tel:+2349071259643">0907 125 9643</Link>
         </div>
       </div>
 

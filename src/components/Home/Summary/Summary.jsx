@@ -22,8 +22,13 @@ const Summary = () => {
 
       <div className="flex flex-col items-center space-y-6 md:flex-row md:justify-between md:space-y-0 md:space-x-6">
         <SummaryBox bg="bg-eye-clinic" text="Eye Clinic" link="/about" />
-        <SummaryBox bg="bg-services" text="Services" link="/services" />
-        <SummaryBox bg="bg-visit-us" text="Visit Us" link="/visit-us" />
+        <SummaryBox
+          bg="bg-services"
+          text="Services"
+          link="#services"
+          anchor={true}
+        />
+        <SummaryBox bg="bg-visit-us" text="Visit Us" link="/contact-us" />
       </div>
     </section>
   );

@@ -1,16 +1,26 @@
-import Layout from "./components/Layout/Layout";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import HomePage from "./pages/HomePage";
+import RootLayout from "./pages/Root";
+import HomePage from "./pages/Home";
 
 // Fonts
 import "./fonts/Providence.ttf";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+    ],
+  },
+]);
+
 const App = () => {
-  return (
-    <Layout>
-      <HomePage />
-    </Layout>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;

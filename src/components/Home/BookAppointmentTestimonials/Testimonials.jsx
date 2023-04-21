@@ -77,10 +77,7 @@ const Testimonials = () => {
         </Carousel>
       </div>
 
-      <a
-        className="flex justify-center text-2xl underline"
-        href="/testimonials"
-      >
+      <a className="flex justify-center text-2xl underline" href="/">
         View More Testimonials
       </a>
     </div>

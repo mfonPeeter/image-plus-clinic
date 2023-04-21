@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 @font-face {
   font-family: "Providence";
   src: local("Providence"), url("./fonts/Providence.ttf") format("truetype");

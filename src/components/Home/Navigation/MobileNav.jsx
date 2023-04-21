@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import searchIcon from "../../../assets/magnifying-glass.svg";
 
 const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
@@ -29,37 +31,27 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
           </button>
         </div>
         <ul className="mb-8">
-          <a href="/">
-            <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
-              Home
-            </li>
-          </a>
-          <a href="/">
-            <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
-              About us
-            </li>
-          </a>
-          <a href="/">
-            <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
-              Services
-            </li>
-          </a>
-          <a href="/">
-            <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
-              News & Updates
-            </li>
-          </a>
-          <a href="/">
-            <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
-              Contact
-            </li>
-          </a>
+          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+            <Link to="/">Home</Link>
+          </li>
+          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+            <Link to="/about">About us</Link>
+          </li>
+          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+            <a href="#services">Services</a>
+          </li>
+          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+            <Link to="/news-updates">News & Updates</Link>
+          </li>
+          <li className="py-2 px-6 border-b transition hover:text-[#f97729]">
+            <Link to="/">Contact</Link>
+          </li>
         </ul>
 
         <div className="flex justify-center">
           <a
             className="inline-block px-4 py-2 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729]"
-            href="/"
+            href="#book-appointment"
           >
             Book Appointment
           </a>

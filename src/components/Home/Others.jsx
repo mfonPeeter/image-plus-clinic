@@ -70,7 +70,7 @@ const Others = () => {
       <div className="flex justify-center">
         <a
           className="inline-block px-5 py-3 text-[#f97729] text-lg uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729] md:px-10 md:py-4"
-          href="/"
+          href="#book-appointment"
         >
           Book Appointment
         </a>

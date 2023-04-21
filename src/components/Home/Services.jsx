@@ -7,7 +7,10 @@ import buildingOfficeIcon from "../../assets/services/building-office.svg";
 
 const Services = () => {
   return (
-    <section className="pt-10 pb-8 text-white bg-[#2f2f2f] md:pb-14 md:px-20 lg:px-16 xl:px-28">
+    <section
+      id="services"
+      className="pt-10 pb-8 text-white bg-[#2f2f2f] md:pb-14 md:px-20 lg:px-16 xl:px-28"
+    >
       <div className="flex flex-col items-center mb-5 md:mb-12">
         <h2 className="mb-3 text-center text-3xl font-bold uppercase md:text-4xl">
           Our Services
@@ -21,8 +24,8 @@ const Services = () => {
           accurate results for effective diagnosis by our experienced experts.
           We make it easy to leverage professional eye care services at the
           convenience of our patient’s total well-being. We are committed to
-          providing the best possible eye care, with exceptional
-          customer's service
+          providing the best possible eye care, with exceptional customer's
+          service
         </p>
       </div>
 

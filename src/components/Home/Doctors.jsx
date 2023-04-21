@@ -1,9 +1,14 @@
+import { Link } from "react-router-dom";
+
 import firstDoctorImg from "../../assets/doctors/doctor-1.jpg";
 import secondDoctorImg from "../../assets/doctors/doctor-2.jpg";
 
 const Doctors = () => {
   return (
-    <section className="pt-10 pb-16 px-6 bg-[#2f2f2f] text-white sm:px-12 md:py-16 md:px-20 lg:px-16 xl:px-28">
+    <section
+      id="doctors"
+      className="pt-10 pb-16 px-6 bg-[#2f2f2f] text-white sm:px-12 md:py-16 md:px-20 lg:px-16 xl:px-28"
+    >
       <div className="flex flex-col items-center mb-10">
         <h2 className="mb-3 text-center text-3xl font-bold uppercase md:text-4xl">
           Meet Our Doctors
@@ -15,13 +20,13 @@ const Doctors = () => {
           Here at Imageplus Eye Clinic, we have the most reputed doctors and
           well trained specialists who provide comprehensive care to address all
           your concerns. Book an appointment by{" "}
-          <a className="underline" href="tel:+2349071259643">
+          <Link className="underline" to="tel:+2349071259643">
             phone
-          </a>{" "}
+          </Link>{" "}
           or{" "}
-          <a className="underline" href="#book-appointment">
+          <Link className="underline" to="#book-appointment">
             online.
-          </a>
+          </Link>
         </p>
       </div>
 
@@ -40,11 +45,11 @@ const Doctors = () => {
             <div className="mb-4 px-8 text-[#555] text-sm lg:text-base">
               <div className="flex justify-between border-b pb-2">
                 <p>Monday - Friday</p>
-                <p>9:00 AM - 6:00 PM</p>
+                <p>8:00 AM - 5:00 PM</p>
               </div>
               <div className="flex justify-between pt-2">
                 <p>Saturday</p>
-                <p>10:00 AM - 3:00 PM</p>
+                <p>8:00 AM - 5:00 PM</p>
               </div>
             </div>
             <a
@@ -63,18 +68,18 @@ const Doctors = () => {
             alt="Dr Ijeoma"
           />
           <div className="py-2 text-center bg-[#f97729]">
-            <h3 className="text-lg lg:text-xl">Dr (Lady) Ijeoma Nnabuife</h3>
-            <p className="text-sm lg:text-base">Frontline Optometrist</p>
+            <h3 className="text-lg lg:text-xl">Dr Edidiong Monday Udo</h3>
+            <p className="text-sm lg:text-base">Optometrist</p>
           </div>
           <div className="flex flex-col pt-4 bg-white rounded-b">
             <div className="mb-4 px-8 text-[#555] text-sm lg:text-base">
               <div className="flex justify-between border-b pb-2">
                 <p>Monday - Friday</p>
-                <p>9:00 AM - 6:00 PM</p>
+                <p>8:00 AM - 5:00 PM</p>
               </div>
               <div className="flex justify-between pt-2">
                 <p>Saturday</p>
-                <p>10:00 AM - 3:00 PM</p>
+                <p>8:00 AM - 5:00 PM</p>
               </div>
             </div>
             <a
