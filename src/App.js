@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./pages/Root";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
+import ContactPage from "./pages/Contact";
 
 // Fonts
 import "./fonts/Providence.ttf";
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/about-us",
+        path: "about-us",
         element: <AboutPage />,
+      },
+      {
+        path: "contact-us",
+        element: <ContactPage />,
       },
     ],
   },

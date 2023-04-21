@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-import locationIcon from "../../assets/footer/map-pin.svg";
-import timeIcon from "../../assets/footer/clock.svg";
-import phoneIcon from "../../assets/footer/phone.svg";
+import locationIcon from "../../assets/map-pin.svg";
+import timeIcon from "../../assets/clock.svg";
+import phoneIcon from "../../assets/phone.svg";
 
 const Footer = () => {
   return (
