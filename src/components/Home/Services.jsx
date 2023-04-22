@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import eyeIcon from "../../assets/services/eye.svg";
 import clipboardIcon from "../../assets/services/clipboard-document.svg";
 import documentMagnifyingGlassIcon from "../../assets/services/document-magnifying-glass.svg";
@@ -45,12 +47,12 @@ const Services = () => {
             We create a world without limits by improving the vision for
             near-blind patients.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/low-vision-clinic"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
 
         <div className="group text-center py-4 px-4 w-full border-b md:border-r">
@@ -67,12 +69,12 @@ const Services = () => {
           <p className="text-sm mb-3 md:text-base">
             Specialized eye care services for aged clients and also children.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/geriatric-pedriatic-care"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
 
         <div className="group text-center py-4 px-4 border-b md:pl-4 lg:px-4 lg:border-r">
@@ -90,12 +92,12 @@ const Services = () => {
             We provide vision screening services to individuals and corporate
             organizations.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/vision-screening"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
 
         <div className="group text-center py-4 px-4 border-b md:pr-4 md:border-r lg:pr-0 lg:pl-4 lg:border-r-0">
@@ -113,12 +115,12 @@ const Services = () => {
             We utilize computerized diagnostic equipment in the management of
             our patients.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/diagonstic-testing"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
 
         <div className="group text-center py-4 px-4 border-b md:border-r lg:px-0 lg:pr-4 lg:border-b-0">
@@ -136,12 +138,12 @@ const Services = () => {
             We offer a wide range of Optical services including single vision,
             bifocal and varifocal lenses.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/optical-services"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
 
         <div className="group text-center py-4 px-4 border-b md:pl-4 lg:px-4 lg:border-b-0 lg:border-r">
@@ -159,12 +161,12 @@ const Services = () => {
             Count on our knowledge and expertise to find the contact lenses
             perfect for your needs.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/contact-lenses"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
 
         <div className="group text-center py-4 px-4 md:pr-4 md:border-r md:border-b-0 lg:px-4">
@@ -182,12 +184,12 @@ const Services = () => {
             High quality and professional service you can trust, in the comfort
             of your home.
           </p>
-          <a
-            href="/"
+          <Link
+            to="services/the-outdoor-clinic"
             className="inline-block py-3 px-4 text-xs uppercase border-2 border-white rounded-full transition-colors hover:bg-[#045544]"
           >
             Read more
-          </a>
+          </Link>
         </div>
       </div>
     </section>

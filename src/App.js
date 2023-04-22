@@ -4,6 +4,7 @@ import RootLayout from "./pages/Root";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
+import ServicesContentPage from "./pages/ServicesContent";
 
 // Fonts
 import "./fonts/Providence.ttf";
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "contact-us",
         element: <ContactPage />,
+      },
+      {
+        path: "services/:serviceId",
+        element: <ServicesContentPage />,
       },
     ],
   },
