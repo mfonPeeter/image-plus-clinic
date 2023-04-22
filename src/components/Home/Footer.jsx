@@ -53,7 +53,7 @@ const Footer = () => {
             <Link
               rel="noreferrer"
               target="_blank"
-              to="/"
+              to="https://www.instagram.com/imagepluseyeclinic/"
               className="inline-block transition-all hover:scale-110"
             >
               <BsInstagram size={24} />
@@ -61,7 +61,7 @@ const Footer = () => {
             <Link
               rel="noreferrer"
               target="_blank"
-              to="/"
+              to="https://www.facebook.com/imagepluseyeclinic?mibextid=ZbWKwL"
               className="inline-block transition-all hover:scale-110"
             >
               <BsFacebook size={24} />
