@@ -52,12 +52,12 @@ const Doctors = () => {
                 <p>8:00 AM - 5:00 PM</p>
               </div>
             </div>
-            <a
+            <Link
               className="inline-block mb-6 self-center px-6 py-3 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729] lg:px-8 lg:text-base"
-              href="/doctor"
+              to="doctors/dr-ijeoma-nnabuife"
             >
               Read Profile
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -82,12 +82,12 @@ const Doctors = () => {
                 <p>8:00 AM - 5:00 PM</p>
               </div>
             </div>
-            <a
+            <Link
               className="inline-block mb-6 self-center px-6 py-3 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-full transition-all hover:text-white hover:bg-[#f97729] lg:px-8 lg:text-base"
-              href="/doctor"
+              to="doctors/dr-edidiong-monday-udo"
             >
               Read Profile
-            </a>
+            </Link>
           </div>
         </div>
       </div>

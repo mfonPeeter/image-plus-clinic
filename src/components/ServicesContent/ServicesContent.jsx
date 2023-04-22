@@ -262,7 +262,7 @@ const ServicesContent = ({
         <div className="flex space-x-6">
           <div className="flex items-center">
             <Link
-              to="tel:"
+              to="tel:+2349071259643"
               className="inline-block px-5 py-2 uppercase font-bold border-2 border-white rounded-full transition-all hover:text-white hover:bg-[#045544] md:px-8 md:py-3 md:text-lg"
             >
               Call Now
@@ -270,7 +270,7 @@ const ServicesContent = ({
           </div>
           <div className="flex items-center">
             <Link
-              to="contact-us"
+              to="/contact-us"
               className="inline-block px-5 py-2 uppercase font-bold border-2 border-white rounded-full transition-all hover:text-white hover:bg-[#045544] md:px-8 md:py-3 md:text-lg"
             >
               Book Online

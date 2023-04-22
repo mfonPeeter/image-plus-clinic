@@ -5,6 +5,7 @@ import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import ContactPage from "./pages/Contact";
 import ServicesContentPage from "./pages/ServicesContent";
+import DoctorsContentPage from "./pages/DoctorsContent";
 
 // Fonts
 import "./fonts/Providence.ttf";
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "services/:serviceId",
         element: <ServicesContentPage />,
+      },
+      {
+        path: "doctors/:doctorId",
+        element: <DoctorsContentPage />,
       },
     ],
   },
