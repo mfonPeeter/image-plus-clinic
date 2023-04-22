@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import { BsFacebook, BsInstagram } from "react-icons/bs";
+
 import locationIcon from "../../assets/map-pin.svg";
 import timeIcon from "../../assets/clock.svg";
 import phoneIcon from "../../assets/phone.svg";
@@ -29,19 +31,43 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 className="mb-4 text-2xl text-[#f97729] font-bold">
-          Stay in touch:
-        </h3>
-        <form className="flex items-center space-x-4">
-          <input
-            className="px-3 py-2 w-80 bg-transparent border border-[#9b9c9e] rounded md:w-60 lg:w-80"
-            type="text"
-            placeholder="Enter your e-mail here..."
-          />
-          <button className="px-4 py-2 text-sm text-white font-bold uppercase bg-[#2f2f2f] rounded-full transition-opacity hover:opacity-90">
-            Subscribe
-          </button>
-        </form>
+        <div className="mb-6">
+          <h3 className="mb-4 text-2xl text-[#f97729] font-bold">
+            Stay in touch:
+          </h3>
+          <form className="flex items-center space-x-4">
+            <input
+              className="px-3 py-2 w-80 bg-transparent border border-[#9b9c9e] rounded md:w-60 lg:w-80"
+              type="text"
+              placeholder="Enter your e-mail here..."
+            />
+            <button className="px-4 py-2 text-sm text-white font-bold uppercase bg-[#2f2f2f] rounded-full transition-opacity hover:opacity-90">
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <div className="flex space-x-4">
+          <h3 className="mb-4 text-2xl text-[#f97729] font-bold">Follow us:</h3>
+          <div className="flex space-x-4 mt-1">
+            <Link
+              rel="noreferrer"
+              target="_blank"
+              to="/"
+              className="inline-block transition-all hover:scale-110"
+            >
+              <BsInstagram size={24} />
+            </Link>
+            <Link
+              rel="noreferrer"
+              target="_blank"
+              to="/"
+              className="inline-block transition-all hover:scale-110"
+            >
+              <BsFacebook size={24} />
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
   );
