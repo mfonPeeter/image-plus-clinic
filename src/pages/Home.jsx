@@ -7,7 +7,6 @@ import BookAppointmentTestimonials from "../components/Home/BookAppointmentTesti
 import Doctors from "../components/Home/Doctors";
 import Partners from "../components/Home/Partners";
 import Milestone from "../components/Home/Milestone";
-// import About from "./components/Home/About";
 
 const HomePage = () => {
   return (
@@ -21,7 +20,6 @@ const HomePage = () => {
       <Doctors />
       <Partners />
       <Milestone />
-      {/* <About /> */}
     </>
   );
 };
