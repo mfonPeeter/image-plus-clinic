@@ -7,7 +7,7 @@ const SummaryBox = ({ bg, text, link, anchor }) => {
     >
       {anchor && (
         <a
-          className="relative z-20 inline-block py-3 px-6 text-white text-lg uppercase font-bold border-[3px] border-white rounded-full transition-all duration-300 hover:bg-[#3c3d41] hover:border-[#3c3d41] md:py-2 md:px-4 md:text-base lg:py-3 lg:px-6"
+          className="relative z-20 inline-block py-3 px-6 text-white text-lg uppercase font-bold border-[3px] border-white rounded-full transition-all duration-300 hover:bg-[#045544] hover:border-[#045544] md:py-2 md:px-4 md:text-base lg:py-3 lg:px-6"
           href={link}
         >
           {text}
@@ -15,7 +15,7 @@ const SummaryBox = ({ bg, text, link, anchor }) => {
       )}
       {!anchor && (
         <Link
-          className="relative z-20 inline-block py-3 px-6 text-white text-lg uppercase font-bold border-[3px] border-white rounded-full transition-all duration-300 hover:bg-[#3c3d41] hover:border-[#3c3d41] md:py-2 md:px-4 md:text-base lg:py-3 lg:px-6"
+          className="relative z-20 inline-block py-3 px-6 text-white text-lg uppercase font-bold border-[3px] border-white rounded-full transition-all duration-300 hover:bg-[#045544] hover:border-[#045544] md:py-2 md:px-4 md:text-base lg:py-3 lg:px-6"
           to={link}
         >
           {text}
