@@ -1,10 +1,14 @@
 import { WhatsAppWidget } from "react-whatsapp-widget";
 import "react-whatsapp-widget/dist/index.css";
-// import { ReactComponent as CompanyIcon } from "../../assets/logo.jpg";
+import { ReactComponent as CompanyIcon } from "../../assets/logo.svg";
 
 const WhatsApp = () => {
   return (
-    <WhatsAppWidget phoneNumber="+2348182041899" companyName="Imageplus" />
+    <WhatsAppWidget
+      CompanyIcon={CompanyIcon}
+      phoneNumber="+2348037844253"
+      companyName="Imageplus"
+    />
   );
 };
 

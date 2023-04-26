@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import MobileNav from "./MobileNav";
 
-import logo from "../../../assets/logo.jpg";
+import logo from "../../../assets/logo.svg";
 import hamburgerMenuIcon from "../../../assets/hamburger-menu.svg";
 import closeMenuIcon from "../../../assets/x-mark.svg";
 
