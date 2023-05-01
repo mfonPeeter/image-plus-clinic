@@ -24,3 +24,9 @@ body {
   top: 0;
   z-index: 40;
 }
+
+@media (min-width: 640px) {
+  .sticky-default {
+    position: relative;
+  }
+}

@@ -7,6 +7,9 @@ import ContactPage from "./pages/Contact";
 import ServicesContentPage from "./pages/ServicesContent";
 import DoctorsContentPage from "./pages/DoctorsContent";
 
+// Dashboard
+import LoginPage from "./pages/Dashboard/Login";
+
 // Fonts
 import "./fonts/Providence.ttf";
 
@@ -34,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "doctors/:doctorId",
         element: <DoctorsContentPage />,
+      },
+      {
+        path: "login",
+        element: <LoginPage />,
       },
     ],
   },
