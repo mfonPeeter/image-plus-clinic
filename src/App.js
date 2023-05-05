@@ -10,6 +10,8 @@ import DoctorsContentPage from "./pages/DoctorsContent";
 // Dashboard
 import LoginPage from "./pages/Dashboard/Login";
 import RegisterPage from "./pages/Dashboard/Register";
+import DashboardRootLayout from "./pages/Dashboard/DashboardRoot";
+import DashboardHomePage from "./pages/Dashboard/DashboardHome";
 
 // Fonts
 import "./fonts/Providence.ttf";
@@ -46,6 +48,17 @@ const router = createBrowserRouter([
       {
         path: "register",
         element: <RegisterPage />,
+      },
+    ],
+  },
+
+  {
+    path: "admin",
+    element: <DashboardRootLayout />,
+    children: [
+      {
+        index: true,
+        element: <DashboardHomePage />,
       },
     ],
   },
