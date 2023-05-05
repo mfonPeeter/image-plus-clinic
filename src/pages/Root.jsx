@@ -15,8 +15,12 @@ const RootLayout = () => {
       <main>
         <Outlet />
       </main>
-      {location.pathname !== "/login" && <Footer />}
-      {location.pathname !== "/login" && <WhatsApp />}
+      {location.pathname !== "/login" || location.pathname !== "/register" || (
+        <Footer />
+      )}
+      {location.pathname !== "/login" || location.pathname !== "/register" || (
+        <WhatsApp />
+      )}
     </>
   );
 };

@@ -9,18 +9,18 @@ const Login = () => {
             Login
           </h3>
           <form className="flex flex-col space-y-4 px-6 text-lg sm:px-10">
-            <div className="flex items-center justify-between">
-              <label htmlFor="email">E-Mail</label>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between sm:space-x-1">
+              <label htmlFor="email">E-Mail Address</label>
               <input
-                className="py-1 px-3 w-[65%] bg-transparent border border-gray-400 rounded-md outline-[#f97729]"
+                className="py-1 px-3 w-full bg-transparent border border-gray-400 rounded-md outline-[#f97729] sm:w-[65%]"
                 id="email"
                 type="email"
               />
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between sm:space-x-1">
               <label htmlFor="password">Password</label>
               <input
-                className="py-1 px-3 w-[65%] bg-transparent border border-gray-400 rounded-md outline-[#f97729]"
+                className="py-1 px-3 w-full bg-transparent border border-gray-400 rounded-md outline-[#f97729] sm:w-[65%]"
                 id="password"
                 type="password"
               />
@@ -30,7 +30,7 @@ const Login = () => {
               <label htmlFor="remember">Remember Me</label>
             </div>
             <div className="flex justify-center">
-              <button className="px-4 py-2 w-96 text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-md transition-colors duration-200 hover:text-white hover:bg-[#f97729]">
+              <button className="px-4 py-2 w-full text-[#f97729] text-sm uppercase font-bold border-2 border-[#f97729] rounded-md transition-colors duration-200 hover:text-white hover:bg-[#f97729] sm:w-96">
                 Login
               </button>
             </div>

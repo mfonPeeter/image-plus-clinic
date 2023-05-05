@@ -7,7 +7,7 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
 
   return (
     <>
-      {location.pathname !== "/login" && (
+      {location.pathname !== "/login" || location.pathname !== "/register" || (
         <div
           className={`fixed z-30 top-0 right-0 h-screen w-full bg-[rgba(0,0,0,0.4)] duration-700 transition-all lg:hidden ${
             showMobileNav
@@ -18,7 +18,7 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
         />
       )}
 
-      {location.pathname !== "/login" && (
+      {location.pathname !== "/login" || location.pathname !== "/register" || (
         <nav
           className={`fixed right-0 z-30 h-screen w-3/4 text-lg bg-white border-t-2 duration-500 transition-all lg:hidden ${
             showMobileNav
@@ -82,7 +82,7 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
       )}
 
       {/* Dashboard */}
-      {location.pathname === "/login" && (
+      {location.pathname === "/login" || location.pathname === "/register" || (
         <div
           className={`fixed z-30 top-0 right-0 h-screen w-full bg-[rgba(0,0,0,0.4)] duration-700 transition-all sm:hidden ${
             showMobileNav
@@ -93,7 +93,7 @@ const MobileNav = ({ showMobileNav, showMobileNavHandler }) => {
         />
       )}
 
-      {location.pathname === "/login" && (
+      {location.pathname === "/login" || location.pathname === "/register" || (
         <nav
           className={`fixed right-0 z-30 h-screen w-3/4 text-lg bg-white border-t-2 duration-500 transition-all sm:hidden ${
             showMobileNav

@@ -18,7 +18,7 @@ const Navigation = () => {
 
   return (
     <>
-      {location.pathname !== "/login" && (
+      {location.pathname !== "/login" || location.pathname !== "/register" || (
         <div
           className={`sticky-default flex items-center justify-between px-6 h-20 text-[#555] bg-white xl:justify-center lg:h-32 xl:h-28 ${
             !showMobileNav && "shadow-xl"
@@ -72,7 +72,7 @@ const Navigation = () => {
       )}
 
       {/* Dashboard */}
-      {location.pathname === "/login" && (
+      {location.pathname === "/login" && location.pathname === "/register" && (
         <div className="sticky-default flex items-center justify-between px-6 h-[86px] text-[#555] bg-white md:px-20 lg:px-24">
           <Link
             to="/"
