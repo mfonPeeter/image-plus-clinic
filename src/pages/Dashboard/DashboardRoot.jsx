@@ -6,8 +6,8 @@ import DashboardFooter from "../../components/Dashboard/DashboardFooter";
 
 const DashboardRootLayout = () => {
   return (
-    <div className="grid grid-cols-[110px] sm:grid-cols-5">
-      <div className="row-span-5">
+    <div className="grid grid-cols-[110px] grid-rows-[80px_1fr_1fr] sm:grid-cols-5">
+      <div className="row-span-6">
         <DashboardMainNavigation />
       </div>
       <div className="col-start-2 col-end-6">
