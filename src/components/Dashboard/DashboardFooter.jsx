@@ -1,6 +1,6 @@
 const DashboardFooter = () => {
   return (
-    <div className="flex items-center justify-center py-4 text-sm sm:text-base">
+    <div className="py-4 px-1 text-center text-sm sm:text-base">
       <p>Copyright &copy; Imageplus | by Dealdrive Technology</p>
     </div>
   );
