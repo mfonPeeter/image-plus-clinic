@@ -2,7 +2,7 @@ import rarrSvg from "../../../assets/rarr.svg";
 
 const DashboardSmallNavigation = () => {
   return (
-    <section className="py-[29.5px] shadow-lg">
+    <section className="py-[29.5px] bg-gray-50 shadow-lg">
       <div className="flex justify-end px-4 sm:px-10">
         <button className="flex items-center space-x-2 text-sm sm:text-base">
           <p>imageplusng@gmail.com</p>

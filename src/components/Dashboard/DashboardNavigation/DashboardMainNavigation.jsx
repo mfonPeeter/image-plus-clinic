@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import logo from "../../../assets/logo.svg";
 import dashboardSvg from "../../../assets/dashboard/home.svg";
@@ -12,19 +12,28 @@ import commentsSvg from "../../../assets/dashboard/tag.svg";
 import bookAppointmentSvg from "../../../assets/dashboard/ticket.svg";
 import usersSvg from "../../../assets/dashboard/user.svg";
 
+// className={({ isActive }) =>
+// isActive ? classes.active : undefined
+// }
+
 const DashboardMainNavigation = () => {
   return (
-    <section className="px-4 pb-12 text-lg bg-gray-100">
+    <section className="px-4 pb-12 text-lg bg-gray-100 h-full">
       <Link to="/admin" className="flex justify-center mb-4 border-b-2">
         <img className="w-[70px]" src={logo} alt="Logo" />
       </Link>
 
       <nav>
-        <ul className="flex flex-col space-y-6 text-sm md:space-y-8 md:text-base lg:text-lg">
+        <ul
+          id="dMainNav"
+          className="flex flex-col space-y-6 text-sm md:space-y-8 md:text-base lg:text-lg"
+        >
           <li>
-            <Link
+            <NavLink
               to="/admin"
-              className="flex flex-col items-center border-b-2 pb-4 transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center border-b-2 pb-4 transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -32,13 +41,15 @@ const DashboardMainNavigation = () => {
                 alt="Dashboard"
               />
               <h4>Dashboard</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/patients"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -46,13 +57,15 @@ const DashboardMainNavigation = () => {
                 alt="Patients"
               />
               <h4>Patients</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/services"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -60,13 +73,15 @@ const DashboardMainNavigation = () => {
                 alt="Services"
               />
               <h4>Services</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/doctors"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -74,13 +89,15 @@ const DashboardMainNavigation = () => {
                 alt="Doctors"
               />
               <h4>Doctors</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/partners"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -88,13 +105,15 @@ const DashboardMainNavigation = () => {
                 alt="Partners"
               />
               <h4>Partners</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/testimonials"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -102,13 +121,15 @@ const DashboardMainNavigation = () => {
                 alt="Testimonials"
               />
               <h4>Testimonials</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/news-update"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -116,13 +137,15 @@ const DashboardMainNavigation = () => {
                 alt="News Update"
               />
               <h4 className="text-center md:text-left">News Update</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/comments"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -130,13 +153,15 @@ const DashboardMainNavigation = () => {
                 alt="Comments"
               />
               <h4>Comments</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/book-appointment"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -144,13 +169,15 @@ const DashboardMainNavigation = () => {
                 alt="Book Appointment"
               />
               <h4 className="text-center md:text-left">Book Appointment</h4>
-            </Link>
+            </NavLink>
           </li>
 
           <li>
-            <Link
+            <NavLink
               to="/admin/users"
-              className="flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2"
+              className={`flex flex-col items-center transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
+                isActive,
+              }) => (isActive ? "active" : undefined)}`}
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
@@ -158,7 +185,7 @@ const DashboardMainNavigation = () => {
                 alt="User Management"
               />
               <h4 className="text-center md:text-left">User Management</h4>
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
