@@ -12,10 +12,6 @@ import commentsSvg from "../../../assets/dashboard/tag.svg";
 import bookAppointmentSvg from "../../../assets/dashboard/ticket.svg";
 import usersSvg from "../../../assets/dashboard/user.svg";
 
-// className={({ isActive }) =>
-// isActive ? classes.active : undefined
-// }
-
 const DashboardMainNavigation = () => {
   return (
     <section className="px-4 pb-12 text-lg bg-gray-100 h-full">
@@ -34,6 +30,7 @@ const DashboardMainNavigation = () => {
               className={`flex flex-col items-center border-b-2 pb-4 transition-colors hover:text-[#f97729] md:flex-row md:items-stretch md:space-x-2 ${({
                 isActive,
               }) => (isActive ? "active" : undefined)}`}
+              end
             >
               <img
                 className="w-5 h-5 md:w-6 md:h-6"
